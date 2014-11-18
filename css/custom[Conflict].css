@@ -1,0 +1,144 @@
+body {
+    padding-top: 70px;
+}
+
+.ciee-container {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.starter-template {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.header-container {
+    width: 100%;
+}
+
+.ciee-navbar {
+    min-height: 40px;
+    border-bottom-width: 0px;
+}
+
+.navbar-toggle {
+    padding: 4px 6px;
+}
+
+.btn-ciee-primary {
+    color: white;
+    border-radius: 0px;
+    background-color: #009BD7;
+}
+
+.ciee-icon {
+    margin-left: -15px;
+    height: 40px;
+}
+
+.ciee-img {
+    width: 140px;
+}
+
+.ciee-img-text {
+    font-stretch: semi-condensed;
+    padding-left: 10px;
+}
+
+.ciee-menu {
+    background-color: #ffffff;
+    border-color: #D9D9D9;
+    border-radius: 0;
+    border-width: 1px 0 1px 0;
+}
+
+    .ciee-menu .container-fluid {
+        padding-left: 90px;
+    }
+
+.nav-ciee > li {
+    border: solid #D9D9D9;
+    border-width: 0 1px 0 1px;
+    margin-left: -1px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #009bd9;
+    background-color: #fff;
+    border-bottom: 9px solid #f58025;
+    padding-bottom: 6px;
+    margin-bottom: 0;
+}
+
+.nav-pills>li>a>.badge {
+    margin-left: 10px;
+}
+
+.panel-body.ciee-panel {
+    
+}
+
+.container-applicant {
+    padding: 10px 10px 10px 0;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #D9D9D9;
+    border-radius: 4px;
+}
+
+.applicant-header {
+    margin-top: -11px;
+    margin-left: -1px;
+    margin-bottom: -11px;
+}
+
+    .applicant-header:first-child {
+        margin-top: -11px;
+    }
+
+.applicant-header-pic {
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px 0 0 5px;
+    border-top-color: #D9D9D9;
+    border-left-color: #D9D9D9;
+    border-bottom-color: #D9D9D9;
+}
+
+.applicant-header .media-body .media-heading h1,h2,h3,h4 {
+    margin-top: 10px;
+}
+
+.list-group-item.applicant-menu {
+    background-color:none;
+}
+
+.student-search {
+    border: 1px solid #DDDDDD;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 24px;
+    background-color: #fafafa;
+}
+
+.student-search .media .media-body p {
+    font-size: 9pt;
+}
+
+.student-pic {
+    width: 80px;
+}
+
+
+@media (max-width: 767px) {
+    .ciee-icon {
+        margin-left: 0;
+        height: 40px;
+    }
+
+    .ciee-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
